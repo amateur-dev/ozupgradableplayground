@@ -1,0 +1,43 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "1e7f1a53b63a4c64177d8845775c9c9c62d0a58d2017f48e31baf94659b92b68": {
+      "address": "0x2a151C797ECC7e5568781a9DC8142d60aA61EDe1",
+      "txHash": "0x12e0f34e29a45c9f24e7172b73ad8c7db808b48133e7a0dfef590e2a3490e240",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts/proxy/utils/Initializable.sol:30"
+          },
+          {
+            "contract": "Greeter",
+            "label": "greeting",
+            "type": "t_string_storage",
+            "src": "contracts/Greeter.sol:7"
+          }
+        ],
+        "types": {
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x7A37391Df19a42c6b8C53d97846e47500C296b70",
+    "txHash": "0xb35c2db186d79990aa5da9d38f4be240d4b619258366d0aa6c9526407411890f"
+  }
+}
